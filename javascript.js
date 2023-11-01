@@ -18,42 +18,28 @@ const average = sumOfAll / frequency;
 
 console.log(average);
 
-const varianceA = average - a;
+let A = ( a - average)**2;
 
-console.log(varianceA);
+let B = ( b - average)**2;
 
-const varianceB = average - b;
+let C = ( c - average)**2;
 
-console.log(varianceB);
+let D = ( d - average)**2;
 
-const varianceC = average - c;
+let E = ( e - average)**2;
 
-console.log(varianceC);
+let F = ( f - average)**2;
 
-const varianceD = average - d;
+let G = ( g - average)**2;
 
-console.log(varianceD);
+let H = ( h - average)**2;
 
-const varianceE = average - e;
+let I = ( i - average)**2;
 
-console.log(varianceE);
+let J = ( j - average)**2;
 
-const varianceF = average - f;
+const sumAll = A + B + C + D + E + F + G + H + I + J;
 
-console.log(varianceF);
+const variance = sumAll / frequency;
 
-const varianceG = average - g;
-
-console.log(varianceG);
-
-const varianceH = average - h;
-
-console.log(varianceH);
-
-const varianceI = average - i;
-
-console.log(varianceI);
-
-const varianceJ = average - j;
-
-console.log(varianceJ);
+console.log(variance);
