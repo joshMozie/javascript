@@ -1,7 +1,17 @@
 console.log("Hello World");
 
 const usersDetails = {
-    firstName: prompt ("type in first name"), lastName: prompt ("type in last name"), middleName: prompt ("type in middle name"), dateOfBirth: prompt ("type in date of birth"), maritalStatus: prompt ("type in marital status"), weight: prompt ("type in weight"), height: prompt ("type in height"), highestAcademicQualification: prompt ("type in highest academic qualification"), identificationNumber: prompt ("type in identification number"), age: prompt ("type in age"), ageClassification: ("open"),
+    firstName: prompt ("type in first name"), 
+    lastName: prompt ("type in last name"), 
+    middleName: prompt ("type in middle name"), 
+    dateOfBirth: prompt ("type in date of birth"), 
+    maritalStatus: prompt ("type in marital status"), 
+    weight: prompt ("type in weight"), 
+    height: prompt ("type in height"), 
+    highestAcademicQualification: prompt ("type in highest academic qualification"), 
+    identificationNumber: prompt ("type in identification number"), 
+    age: prompt ("type in age"), 
+    ageClassification: ("open"),
 }
 
 if ((usersDetails.age >= 0) && (usersDetails.age <= 7)) {usersDetails.ageClassification = ("toddler");}
